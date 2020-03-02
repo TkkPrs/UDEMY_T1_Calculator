@@ -1,0 +1,6 @@
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\bin\Debug\Simple Calculator.exe.config
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\bin\Debug\Simple Calculator.exe
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\bin\Debug\Simple Calculator.pdb
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\obj\Debug\Simple Calculator.csprojAssemblyReference.cache
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\obj\Debug\Simple Calculator.exe
+C:\Users\Pirios\Documents\Udemi\Simple Calculator\obj\Debug\Simple Calculator.pdb
