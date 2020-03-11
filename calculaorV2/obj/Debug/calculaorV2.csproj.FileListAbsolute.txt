@@ -1,0 +1,6 @@
+C:\Users\Pirios\Documents\Udemi\calculaorV2\bin\Debug\calculaorV2.exe.config
+C:\Users\Pirios\Documents\Udemi\calculaorV2\bin\Debug\calculaorV2.exe
+C:\Users\Pirios\Documents\Udemi\calculaorV2\bin\Debug\calculaorV2.pdb
+C:\Users\Pirios\Documents\Udemi\calculaorV2\obj\Debug\calculaorV2.csprojAssemblyReference.cache
+C:\Users\Pirios\Documents\Udemi\calculaorV2\obj\Debug\calculaorV2.exe
+C:\Users\Pirios\Documents\Udemi\calculaorV2\obj\Debug\calculaorV2.pdb
