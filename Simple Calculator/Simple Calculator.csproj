@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Simple_Calculator</RootNamespace>
     <AssemblyName>Simple Calculator</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +49,7 @@
     <Compile Include="..\backup\Program.cs">
       <Link>Program.cs</Link>
     </Compile>
+    <Compile Include="ParentesisOperatorEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

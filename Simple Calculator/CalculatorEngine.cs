@@ -8,15 +8,16 @@ namespace Simple_Calculator
 {
     class CalculatorEngine
     {
-        public double operate(double first_number,double second_number, string operation)
+
+        public static double operate(double first_number, double second_number, string operation)
         {
-            double result=0;
-            switch(operation.ToLower())
+            double result = 0;
+            switch (operation.ToLower())
             {
                 case "add":
                 case "+":
                     result = first_number + second_number;
-                   // return result;
+                    // return result;
                     break;
 
                 case "subtract":
@@ -32,12 +33,11 @@ namespace Simple_Calculator
                 case "divide":
                 case "/":
                     result = first_number / second_number;
-                   // return result;
+                    // return result;
                     break;
                 default:
                     throw new InvalidOperationException("operation not recognized");
-                    
-                    
+
             }
             return result;
         }
