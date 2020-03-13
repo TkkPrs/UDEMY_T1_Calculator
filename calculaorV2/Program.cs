@@ -18,7 +18,7 @@ namespace calculaorV2
                // SortCalculations sortCalculaton = new SortCalculations();
                 //Calculate calculate = new Calculate();
                 ProblemSolver problemSolver = new ProblemSolver();
-                string input = "-19+(-7+(-5+(1+(-3))))";
+                string input = "-19+3*(-5-6)*2+(-32-+2)";
                 //string input = "19+(7+(5+(1+3)))";
                 // Console.ReadLine();
 
@@ -28,9 +28,9 @@ namespace calculaorV2
                 // double [] numbers = new double [] { 1, 3, 5, 7, 9 };
                 //List<double> operation = new List<double> { 0,1,1,1,1 };
                 //Double result = calculate.calculate(numbers, operation);
-                double result = problemSolver.SolveOperation(input,ref OperationList);
+                problemSolver.SolveOperation(input,ref OperationList);
                     
-                Console.WriteLine("answer is:{0}",result);
+                Console.WriteLine("answer is:{0}",OperationList[0]);
                 Console.ReadLine();
             } catch(Exception ex)
             {
